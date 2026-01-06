@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 433.52 405.16">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #f4f8f9;
+        stroke: url(#linear-gradient-2);
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="209.56" x2="420.58" y2="209.56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".02" stop-color="#fefefe" stop-opacity=".06"/>
+      <stop offset=".09" stop-color="#fcfdfd" stop-opacity=".25"/>
+      <stop offset=".16" stop-color="#fafbfc" stop-opacity=".43"/>
+      <stop offset=".24" stop-color="#f8fafb" stop-opacity=".58"/>
+      <stop offset=".33" stop-color="#f7fafa" stop-opacity=".71"/>
+      <stop offset=".42" stop-color="#f5f9fa" stop-opacity=".82"/>
+      <stop offset=".52" stop-color="#f5f8f9" stop-opacity=".9"/>
+      <stop offset=".63" stop-color="#f4f8f9" stop-opacity=".96"/>
+      <stop offset=".77" stop-color="#f4f8f9" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#f4f8f9"/>
+    </linearGradient>
+    <filter id="drop-shadow-3" x="313.79" y="-2.99" width="128.4" height="47.52" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="5.67"/>
+      <feGaussianBlur result="blur" stdDeviation="2.83"/>
+      <feFlood flood-color="#8a9190" flood-opacity=".43"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="322.34" y1="15.07" x2="433.52" y2="15.07" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a69c"/>
+      <stop offset="1" stop-color="#09897d"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-2" d="M0,13.96h420.58v361.66c0,16.3-13.24,29.54-29.54,29.54H0V13.96h0Z"/>
+  <g class="cls-1">
+    <path class="cls-3" d="M332.41.5h100.61v29.14h-110.18V10.08c0-5.29,4.29-9.58,9.58-9.58Z"/>
+  </g>
+</svg>

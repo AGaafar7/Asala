@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "AsalaFont";
+    src: url("../fonts/Cairo-Regular.ttf") format("truetype");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"AsalaFont", sans-serif;
+}
+body{
+    margin:0;
+    background:#e8e8e8;
+    direction:rtl;
+    font-family:"AsalaFont", sans-serif;
+}
+
+/* Whole Webpage Content Container */
+.page{
+    min-height:100vh; /* fill full screen height */
+    width:100%;
+    background:transparent;
+    position:relative;
+    overflow:visible;
+    padding:24px 40px;
+}
+
+/* SVG background fills page */
+.background{
+    position:absolute;
+    inset:0;
+    background:url("../images/background.svg") no-repeat left center / cover;
+    opacity:.28;
+    
+    z-index:0;
+}
+
+.left-accent{
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    width:14px;
+    background:linear-gradient(180deg,#00bfa5,#00897b);
+    z-index:2;
+}
+
+.header{
+    display:flex;
+    justify-content:flex-end;
+    align-items: left;
+    gap:12px;
+}
+
+.logo{
+    height:64px;
+}
+
+.company-en{
+    font-size:12px;
+    color:#6d6d6d;
+}
+
+/* Foreground content */
+.content{
+    position:relative;
+    z-index:4;
+    padding-right:40px;
+}
+
+
+ul{
+    margin-top:10px;
+    padding-right:20px;
+    line-height:2;
+}
+
+
+
+
+
+/* Header */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.company-info{
+    text-align:right;
+}
+
+.logo{
+    height:80px;
+    width:auto;
+}
+
+.company-en{
+    font-size:11px;
+    color:#999;
+    margin:0;
+}
+
+.company-ar{
+    font-size:13px;
+    color:#999;
+    margin:2px 0 0 0;
+}
+
+/* Titles */
+.title{
+    margin-top:75px;
+    color:#00bfa5;
+    font-size:52px;
+    text-align:right;
+    font-weight:bold;
+    line-height:1.3;
+}
+
+.section-title{
+    margin:40px 0 20px;
+    font-size:30px;
+    color:#00897B;
+}
+
+/* Text paragraphs */
+.text{
+    font-size:18px;
+    line-height:2;
+}
+
+/* Navigation buttons */
+.nav{
+    margin-top:40px;
+    display:flex;
+    justify-content:flex-end; /* aligns to right in RTL */
+    gap:20px;
+}
+.nav a{
+    text-decoration:none;
+    color:#00897B;
+    font-weight:bold;
+    font-size:16px;
+    padding:8px 16px;
+    border:2px solid #00897B;
+    border-radius:8px;
+}
+
+
+.nav a:hover{
+    background:#00897B;
+    color:#fff;
+}
+.details {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #333;
+}
+
+.info-band{
+    margin-top:50px;
+    width:100%;
+    background:#bdbdbd;
+    padding:28px 34px;
+    box-shadow:none;
+    border-left:4px solid #00bfa5;
+    border-radius:2px;
+}
+
+.info-band .details{
+    margin-top:0;
+    color:#00897b;
+    text-align:right;
+    font-size:16px;
+}
+
+.info-band .details p{
+    margin:8px 0;
+    line-height:1.8;
+}
+@media(max-width:800px){
+    .nav{
+        justify-content:center;
+        flex-wrap:wrap;
+        padding:15px;
+    }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 153.96 77.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #f4f8f9;
+        filter: url(#drop-shadow-2);
+        stroke: url(#linear-gradient-2);
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="67.71" y1="6.93" x2="66.42" y2="63.5" gradientTransform="translate(33.21 100.98) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".02" stop-color="#fefefe" stop-opacity=".06"/>
+      <stop offset=".09" stop-color="#fcfdfd" stop-opacity=".25"/>
+      <stop offset=".16" stop-color="#fafbfc" stop-opacity=".43"/>
+      <stop offset=".24" stop-color="#f8fafb" stop-opacity=".58"/>
+      <stop offset=".33" stop-color="#f7fafa" stop-opacity=".71"/>
+      <stop offset=".42" stop-color="#f5f9fa" stop-opacity=".82"/>
+      <stop offset=".52" stop-color="#f5f8f9" stop-opacity=".9"/>
+      <stop offset=".63" stop-color="#f4f8f9" stop-opacity=".96"/>
+      <stop offset=".77" stop-color="#f4f8f9" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#f4f8f9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-108.54" y1="-298.97" x2="-87.87" y2="-298.97" gradientTransform="translate(165.82 354.75)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a69c"/>
+      <stop offset="1" stop-color="#09897d"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" x="-.08" y="39.75" width="129.6" height="37.92" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2.83" dy="2.83"/>
+      <feGaussianBlur result="blur" stdDeviation="2.83"/>
+      <feFlood flood-color="#8a9190" flood-opacity=".33"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect class="cls-1" x="39.16" y="-17.72" width="55.87" height="103.21" transform="translate(100.98 -33.21) rotate(90)"/>
+  <rect class="cls-2" x="57.77" y=".14" width="19.67" height="111.28" rx="8.96" ry="8.96" transform="translate(123.38 -11.83) rotate(90)"/>
+</svg>

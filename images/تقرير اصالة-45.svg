@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 874.25 78.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #f4f8f9;
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-5);
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-dasharray: 4;
+        stroke-width: .5px;
+      }
+
+      .cls-5 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        stroke: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="39.22" x2="874.25" y2="39.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".02" stop-color="#fefefe" stop-opacity=".06"/>
+      <stop offset=".09" stop-color="#fcfdfd" stop-opacity=".25"/>
+      <stop offset=".16" stop-color="#fafbfc" stop-opacity=".43"/>
+      <stop offset=".24" stop-color="#f8fafb" stop-opacity=".58"/>
+      <stop offset=".33" stop-color="#f7fafa" stop-opacity=".71"/>
+      <stop offset=".42" stop-color="#f5f9fa" stop-opacity=".82"/>
+      <stop offset=".52" stop-color="#f5f8f9" stop-opacity=".9"/>
+      <stop offset=".63" stop-color="#f4f8f9" stop-opacity=".96"/>
+      <stop offset=".77" stop-color="#f4f8f9" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#f4f8f9"/>
+    </linearGradient>
+    <filter id="drop-shadow-3" x="705.72" y="-5.78" width="177.12" height="95.04" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2.83"/>
+      <feGaussianBlur result="blur" stdDeviation="2.83"/>
+      <feFlood flood-color="#8a9190" flood-opacity=".33"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="873.58" y1="39.19" x2="874.58" y2="39.19" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a69c"/>
+      <stop offset="1" stop-color="#09897d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="62.91" y1="28.23" x2="665.03" y2="28.23" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="738.3" y1="28.85" x2="848.23" y2="28.85" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="738.3" y1="50.59" x2="848.23" y2="50.59" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <rect class="cls-1" y="4.33" width="874.25" height="69.77"/>
+  <g>
+    <path class="cls-2" d="M874.08,77.65h-153.13c-3.59,0-6.49-2.91-6.49-6.49V6.51c0-3.59,2.91-6.49,6.49-6.49h153.13v77.63Z"/>
+    <line class="cls-3" x1="874.08" x2="874.08" y2="78.38"/>
+  </g>
+  <line class="cls-5" x1="62.91" y1="28.23" x2="665.03" y2="28.23"/>
+  <line class="cls-6" x1="738.3" y1="28.85" x2="848.23" y2="28.85"/>
+  <line class="cls-4" x1="738.3" y1="50.59" x2="848.23" y2="50.59"/>
+</svg>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 435.13 260.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+        mix-blend-mode: multiply;
+        opacity: .35;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: url(#linear-gradient-3);
+        stroke-dasharray: 4;
+        stroke-width: .5px;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: #f4f8f9;
+        filter: url(#drop-shadow-1);
+        stroke: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="127.63" x2="417.29" y2="127.63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".02" stop-color="#fefefe" stop-opacity=".06"/>
+      <stop offset=".09" stop-color="#fcfdfd" stop-opacity=".25"/>
+      <stop offset=".16" stop-color="#fafbfc" stop-opacity=".43"/>
+      <stop offset=".24" stop-color="#f8fafb" stop-opacity=".58"/>
+      <stop offset=".33" stop-color="#f7fafa" stop-opacity=".71"/>
+      <stop offset=".42" stop-color="#f5f9fa" stop-opacity=".82"/>
+      <stop offset=".52" stop-color="#f5f8f9" stop-opacity=".9"/>
+      <stop offset=".63" stop-color="#f4f8f9" stop-opacity=".96"/>
+      <stop offset=".77" stop-color="#f4f8f9" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#f4f8f9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="408.72" y1="127.63" x2="429.39" y2="127.63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a69c"/>
+      <stop offset="1" stop-color="#09897d"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="397.21" y="0" width="37.92" height="260.88" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2.83" dy="2.83"/>
+      <feGaussianBlur result="blur" stdDeviation="2.83"/>
+      <feFlood flood-color="#8a9190" flood-opacity=".33"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="-4943.04" cy="17854.36" fx="-4943.04" fy="17854.36" r="313.94" gradientTransform="translate(-1412.04 -1626.55) rotate(-90) scale(.35 .1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#afafaf"/>
+      <stop offset=".12" stop-color="#c1c1c1"/>
+      <stop offset=".33" stop-color="#dcdcdc"/>
+      <stop offset=".55" stop-color="#efefef"/>
+      <stop offset=".77" stop-color="#fbfbfb"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-3" x1="304.79" y1="69.15" x2="305.29" y2="69.15" gradientTransform="translate(0 54.31) scale(1 1.06)" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g class="cls-3">
+    <g id="Layer_1" data-name="Layer 1">
+      <g>
+        <rect class="cls-2" y="14.29" width="417.29" height="226.69"/>
+        <rect class="cls-5" x="409.22" y="6.34" width="19.67" height="242.59" rx="9.83" ry="9.83"/>
+        <path class="cls-1" d="M304.76,237.53c16.09-2.42,28.93-51.3,28.93-111.27s-12.84-108.85-28.93-111.27v222.53Z"/>
+        <line class="cls-4" x1="305.04" y1="14.26" x2="305.04" y2="240.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

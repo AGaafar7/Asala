@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 733.7 83.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #f4f8f9;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-2);
+        stroke-dasharray: 4;
+        stroke-width: .25px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-2228.36" y1="1382.22" x2="-2144.97" y2="1382.22" gradientTransform="translate(2553.51 -1340.33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".02" stop-color="#fefefe" stop-opacity=".06"/>
+      <stop offset=".09" stop-color="#fcfdfd" stop-opacity=".25"/>
+      <stop offset=".16" stop-color="#fafbfc" stop-opacity=".43"/>
+      <stop offset=".24" stop-color="#f8fafb" stop-opacity=".58"/>
+      <stop offset=".33" stop-color="#f7fafa" stop-opacity=".71"/>
+      <stop offset=".42" stop-color="#f5f9fa" stop-opacity=".82"/>
+      <stop offset=".52" stop-color="#f5f8f9" stop-opacity=".9"/>
+      <stop offset=".63" stop-color="#f4f8f9" stop-opacity=".96"/>
+      <stop offset=".77" stop-color="#f4f8f9" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#f4f8f9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="13.4" x2="733.7" y2="13.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a69c"/>
+      <stop offset="1" stop-color="#09897d"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="217.27" y="-5.84" width="282.48" height="46.56" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2.83"/>
+      <feGaussianBlur result="blur" stdDeviation="2.83"/>
+      <feFlood flood-color="#8a9190" flood-opacity=".33"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="-2145.27" y1="1374.35" x2="-2144.27" y2="1374.35" gradientTransform="translate(-1015.37 -2144.77) rotate(-90)" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <path class="cls-1" d="M325.15-324.83h56.86c14.65,0,26.54,11.89,26.54,26.54V382.08c0,14.65-11.89,26.54-26.54,26.54h-56.86V-324.83h0Z" transform="translate(324.95 408.74) rotate(-90)"/>
+  <path class="cls-4" d="M.12,26.74C.12,12.08,12.01.2,26.67.2h680.37c14.66,0,26.54,11.88,26.54,26.54"/>
+  <g>
+    <path class="cls-2" d="M491.12,0v17.52c0,6.49-5.26,11.74-11.74,11.74h-241.82c-6.49,0-11.74-5.26-11.74-11.74V0h265.3Z"/>
+    <line class="cls-3" x1="225.79" x2="492.16"/>
+  </g>
+</svg>

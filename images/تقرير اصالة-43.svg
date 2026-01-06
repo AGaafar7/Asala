@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 838.08 117.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #f4f8f9;
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: url(#linear-gradient-2);
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-2919.37" y1="-735.45" x2="-2808.16" y2="-735.45" gradientTransform="translate(3281.88 796.86)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".02" stop-color="#fefefe" stop-opacity=".06"/>
+      <stop offset=".09" stop-color="#fcfdfd" stop-opacity=".25"/>
+      <stop offset=".16" stop-color="#fafbfc" stop-opacity=".43"/>
+      <stop offset=".24" stop-color="#f8fafb" stop-opacity=".58"/>
+      <stop offset=".33" stop-color="#f7fafa" stop-opacity=".71"/>
+      <stop offset=".42" stop-color="#f5f9fa" stop-opacity=".82"/>
+      <stop offset=".52" stop-color="#f5f8f9" stop-opacity=".9"/>
+      <stop offset=".63" stop-color="#f4f8f9" stop-opacity=".96"/>
+      <stop offset=".77" stop-color="#f4f8f9" stop-opacity=".99"/>
+      <stop offset="1" stop-color="#f4f8f9"/>
+    </linearGradient>
+    <filter id="drop-shadow-3" x="-1.59" y=".04" width="839.28" height="38.16" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2.83"/>
+      <feGaussianBlur result="blur" stdDeviation="2.83"/>
+      <feFlood flood-color="#8a9190" flood-opacity=".33"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="-2808.76" y1="-735.4" x2="-2807.76" y2="-735.4" gradientTransform="translate(1153.57 -2802.35) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a69c"/>
+      <stop offset="1" stop-color="#09897d"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-1" x="362.51" y="-347.24" width="111.21" height="817.3" transform="translate(356.7 479.53) rotate(-90)"/>
+  <g>
+    <path class="cls-2" d="M828.94,5.91v16.1c0,2.64-2.14,4.78-4.78,4.78H11.76c-2.64,0-4.78-2.14-4.78-4.78V5.91h821.96Z"/>
+    <line class="cls-3" x1="6.97" y1="5.91" x2="829.37" y2="5.91"/>
+  </g>
+</svg>
